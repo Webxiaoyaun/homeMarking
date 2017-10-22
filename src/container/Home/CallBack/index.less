@@ -1,0 +1,40 @@
+.home-callback {
+  width: 95%;
+  margin: 10px auto 0;
+  height: 105px;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+    i {
+      font-size: 25px;
+      font-weight: bolder;
+      margin-bottom: 10px;
+    }
+    span {
+      line-height: 20px;
+    }
+    span:nth-last-of-type(1) {
+      font-weight: normal;
+      font-size: 15px;
+      color: #333
+    }
+    span:nth-last-of-type(2){
+      color: #666;
+      font-size: 12px;
+    }
+  }
+  a:nth-of-type(1) {
+    border-right: 1px solid #cecece;
+
+  }
+}

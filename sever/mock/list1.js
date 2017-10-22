@@ -1,0 +1,31 @@
+module.exports=[
+    {
+        types:"家电维修",
+        "img":"https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3522144090,1241466156&fm=27&gp=0.jpg",
+        "name":"阿兵",
+        "workingYears":2,
+        "distance":"0.1km",
+        "price":"￥50"
+    },
+    {
+        "img":"https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3522144090,1241466156&fm=27&gp=0.jpg",
+        "name":"雨泽",
+        "workingYears":2,
+        "distance":"0.3km",
+        "price":"￥65"
+    },
+    {
+        "img":"https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3522144090,1241466156&fm=27&gp=0.jpg",
+        "name":"向晨",
+        "workingYears":2,
+        "distance":"0.6km",
+        "price":"￥45"
+    },
+    {
+        "img":"https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3522144090,1241466156&fm=27&gp=0.jpg",
+        "name":"黎昕",
+        "workingYears":2,
+        "distance":"0.9km",
+        "price":"￥80"
+    },
+];

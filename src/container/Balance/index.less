@@ -1,0 +1,58 @@
+.containers{
+  font-size: 3.2rem;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin-top: 49px;
+  background-color: rgba(214, 214, 213, 0.3);
+  width: 100%;
+  height: 100%;
+  .tops{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+    background:#e0e0df;
+    .moneys{
+      font-size: .6rem;
+      color: red;
+    }
+    span{
+      margin-bottom: .2rem;
+    }
+  }
+  .centers{
+    width: 100%;
+    height: .8rem;
+    border-bottom: 1px solid #e0e0df;
+    background-color: #fff;
+    line-height: 40px;
+    span{
+      &._lefts{
+        border-right: 1px solid #e0e0df;
+      }
+      box-sizing: border-box;
+      display: inline-block;
+      text-align: center;
+      line-height: 30px;
+      width: 50%;
+      height: .6rem;
+    }
+  }
+  .adds{
+    margin-top: 10px;
+    width: 100%;
+    height: .8rem;
+    line-height: 40px;
+    background-color: #FFF;
+    padding: 0 5%;
+    .rights{
+      margin-left: 4.46rem;
+    }
+  }
+}

@@ -1,0 +1,110 @@
+
+body{
+  background: #d5d5d5;
+  font-size: 0.32rem;
+  font-family: "Microsoft New Tai Lue";
+  .messages{
+    z-index: 99;
+    position: fixed;
+    top: 1rem;
+    bottom: 1rem;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    .message-item{
+      height: 1.6rem;
+      margin-left: 0.4rem;
+      border-bottom: 1px solid #ddd;
+      div{
+        margin-top: 0.4rem;
+      }
+      #username{
+        margin-left: 0.4rem;
+        height: 0.7rem;
+        outline: none;
+        border: none;
+        font-size: 0.32rem;
+        border-bottom: 1px solid #ddd;
+
+      }
+      .sexs{
+        margin-left: 1.44rem;
+        margin-top: 0.2rem;
+        p{
+          float: left;
+          margin-right: 0.2rem;
+          input{
+            margin-right: 0.1rem;
+          }
+          span{
+            color: #888;
+          }
+        }
+      }
+    }
+    .message{
+      padding-left: 0.4rem;
+      width: 100%;
+      height: 1rem;
+      line-height: 1rem;
+      div{
+        overflow: hidden;
+        border-bottom: 1px solid #ddd;
+        input{
+          float: right;
+          margin-top: 0.2rem;
+          margin-right: 80px;
+          height: 0.56rem;
+          padding-left: 0.2rem;
+          outline: none;
+          border: none;
+        }
+      }
+      button{
+        margin-top: 0.6rem;
+        width: 88%;
+        outline: none;
+        height: 0.8rem;
+        border-radius: 0.1rem;
+        text-align: center;
+        border: none;
+        background: #4dc160;
+      }
+    }
+    .tag{
+      height: 1rem;
+      line-height: 1rem;
+      padding-left: 0.4rem;
+      div{
+        position: relative;
+        border-bottom: 1px solid #ddd;
+        height: 1rem;
+        span{
+          float: left;
+        }
+      }
+      .tab{
+        margin-right: 0.76rem;
+      }
+      p{
+        float: left;
+        span{
+          margin-top: 0.16rem;
+          display: inline-block;
+          margin-right: 0.2rem;
+          width: 1rem;
+          height: 0.6rem;
+          line-height: 0.6rem;
+          border: 1px solid #ddd;
+          border-radius: 0.1rem;
+          text-align: center;
+          background: #fff;
+          color: #777;
+          &.active{
+           border-color: #569cfc;
+          }
+        }
+      }
+    }
+  }
+}

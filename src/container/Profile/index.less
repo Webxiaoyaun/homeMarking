@@ -1,0 +1,151 @@
+.cont {
+  font-size: 15px;
+  width: 100%;
+  position: fixed;
+  top: 50px;
+  bottom: 50px;
+  overflow-y: scroll;
+  background-color: #f5f5f5;
+  .profile-logo {
+    position: relative;
+    width: 100%;
+    background-color: #ff2c4c;
+    height: 3.4rem;
+    padding-top: 10px;
+    a {
+      display: block;
+      position: absolute;
+      height: 25px;
+      width: 60px;
+      bottom: 5px;
+      left: 50%;
+      transform: translate(-50%);
+      background: #d82640;
+      text-align: center;
+      line-height: 25px;
+      border-radius: 8px;
+      color: #FFFFFF;
+      font-weight: bold;
+    }
+  }
+  .profile-number {
+    margin: 20px 3%;
+    width: 94%;
+    border: 1px solid #ccc;
+    font-size: .32rem;
+    height: 1.4rem;
+    overflow: hidden;
+    padding: 10px 0;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+    li {
+      float: left;
+      width: calc(100% / 3);
+      border-right: 1px solid #ccc;
+      text-align: center;
+      box-sizing: border-box;
+      h5 {
+        color: #ff2c4c;
+      }
+      p {
+        color: #000;
+      }
+    }
+    li:last-child {
+      border-right: 0;
+    }
+  }
+  .profile-wallet {
+    margin: 10px 3%;
+    width: 94%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background: #fff;
+    overflow: hidden;
+    padding: 0 10px;
+    box-sizing: border-box;
+    li {
+      font-size: 18px;
+      border-bottom: 1px solid #ddd;
+      padding: 12px 0;
+      height: 1.12rem;
+      //line-height: 1.12rem;
+      overflow: hidden;
+      box-sizing: border-box;
+      a{
+        display: inline-block;
+        width: 100%;
+      }
+      img {
+        width: .6rem;
+        height: .6rem;
+        float: left;
+        vertical-align: middle;
+      }
+      span {
+        color: #000;
+        margin-left: 2%;
+      }
+      i {
+        float: right;
+        line-height: 30px;
+        text-align: center;
+      }
+      p {
+        float: right;
+        font-style: normal;
+        color: #666;
+        em {
+          font-size: .32rem;
+          color: #666;
+        }
+      }
+    }
+  }
+  .profile-idea {
+    margin: 10px 3%;
+    width: 94%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background: #fff;
+    overflow: hidden;
+    padding: 0 10px;
+    box-sizing: border-box;
+    li {
+      font-size: 18px;
+      border-bottom: 1px solid #ddd;
+      padding: 12px 0;
+      height: 1.12rem;
+      overflow: hidden;
+      box-sizing: border-box;
+      img {
+        width: .6rem;
+        height: .6rem;
+        float: left;
+      }
+      span {
+        color: #000;
+        margin-left: 2%;
+      }
+      i {
+        float: right;
+        line-height: 0.8rem;
+        text-align: center;
+      }
+      p {
+        float: right;
+        font-style: normal;
+        color: #666;
+        em {
+          margin-right: 6px;
+          font-size: .32rem;
+          color: #666;
+        }
+      }
+    }
+    li:last-child {
+      border-bottom: none;
+    }
+  }
+}

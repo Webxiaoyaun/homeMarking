@@ -1,0 +1,31 @@
+module.exports=[
+    {
+        types:"阿姨/月嫂",
+        "img":"https://cbu01.alicdn.com/img/ibank/2015/338/882/2155288833_1048260039.310x310.jpg",
+        "name":"梦舒",
+        "workingYears":2,
+        "distance":"0.2km",
+        "price":"￥50"
+    },
+    {
+        "img":"https://cbu01.alicdn.com/img/ibank/2015/338/882/2155288833_1048260039.310x310.jpg",
+        "name":"欣妍",
+        "workingYears":5,
+        "distance":"0.4km",
+        "price":"￥100"
+    },
+    {
+        "img":"http://www.jtfw.com/uploads/allimg/160602/1-1606022035580-L.png",
+        "name":"瑾萱",
+        "workingYears":6,
+        "distance":"0.7km",
+        "price":"￥70"
+    },
+    {
+        "img":"http://www.jtfw.com/uploads/allimg/160602/1-1606022035580-L.png",
+        "name":"若华",
+        "workingYears":6,
+        "distance":"0.8km",
+        "price":"￥70"
+    },
+];
